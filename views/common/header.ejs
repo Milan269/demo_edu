@@ -1,0 +1,95 @@
+<nav class="navbar navbar-dark navbar-expand-sm header-bg p-0 fixed-top">
+    <div class="container-md p-0 ">
+        <button id="bttn" class="navbar-toggler"   type="button" data-bs-toggle="collapse" data-bs-target="#collapse" aria-controls="collapse" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-menu-button-wide" ></i>
+          </button>
+    <a class="navbar-brand " href="/">StudyAge</a>
+        
+    <ul class="navbar-nav collapse navbar-collapse justify-content-md-evenly p-0  " id="collapse">
+        <li class="nav-item"><a class="nav-link " href="/">Home</a></li>
+
+        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Degree </a>
+            <ul class="dropdown-menu header-bg">
+                <li><a class="dropdown-item" href="/degree_ug">Under-Graduate</a></li>
+                <li><a class="dropdown-item" href="/degree_pg">Post-Graduate</a></li>
+              </ul> 
+        
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false"  href="#">Equip-Skill  </a>
+            <ul class="dropdown-menu header-bg">
+                <li><a class="dropdown-item" href="/fullS">FullStack Web Developer</a></li>
+                <li><a class="dropdown-item" href="/uiux">UI/UX</a></li>
+                <li><a class="dropdown-item" href="/pgdca">PGDCA</a></li>
+                <li><a class="dropdown-item" href="/blockchain">Blockchain Developer</a></li>
+                <li><a class="dropdown-item" href="/cloud">Cloud Computing</a></li>
+                <li><a class="dropdown-item" href="/appdev">App Developer</a></li>
+              </ul> 
+        
+        </li>
+        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Counselling  </a>
+            <ul class="dropdown-menu header-bg">
+                <li><a class="dropdown-item" href="#">Educational Counselling</a></li>
+                <li><a class="dropdown-item" href="#">Vocational Counselling</a></li>
+                <li><a class="dropdown-item" href="#">Career Counselling</a></li>
+              </ul> 
+        </li>
+        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Study Abroad  </a>
+            <ul class="dropdown-menu header-bg">
+                <li><a class="dropdown-item" href="#">Under-Graduate</a></li>
+                <li><a class="dropdown-item" href="#">Post-Graduate</a></li>
+                <li><a class="dropdown-item" href="#">Scholarship</a></li>
+              </ul> 
+        </li>
+
+        <li class="nav-item"><a class="nav-link " href="/contactus">ContactUs</a></li>
+
+    </ul>
+    
+    <button type="button" class="btn  rounded-circle text-center" class="btn btn-secondary " data-bs-target="#signmodal" data-bs-toggle="modal"> <i class="bi bi-person-fill h3 text-white text-shad "></i>
+     
+    </button>
+</div>
+    
+</nav>
+
+
+<!-- sign-in -->
+<div class="modal fade " id="signmodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content bg-primary-subtle">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Sign-in</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body bg-danger-subtle">
+            <form class="px-4 py-3"  action="/login" method="post">
+                <div class="mb-3">
+                  <label for="exampleDropdownFormEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com" name="email">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleDropdownFormPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleDropdownFormPassword1" name="password" placeholder="Password">
+                </div>
+                <div class="mb-3">
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                    <label class="form-check-label" for="dropdownCheck">
+                      Remember me
+                    </label>
+                  </div>
+                </div>
+                <button type="submit"  class="btn btn-primary">Sign in</button>
+              </form>
+        </div>
+        <div class="modal-footer">
+            <a href="/dashboard/index" target="_blank">Dashboard</a>
+            <button type="button" class="btn btn-primary" onclick="window.location.href='/signup'" target="blank">Create new account</button>
+          </div>
+      </div>
+    </div>
+  </div>
+
+
+  

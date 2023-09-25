@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/bs/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"  />
+        <link rel="stylesheet" href="assets/css/main.css">
+        <title>StudyAge</title>
+    </head>
+<body>
+     <!-- header -->
+     <%- include('./common/header.ejs') %>
+     <!-- header ends -->
+<div class="container-fluid mt-5">
+<h1 class="text-center l-space p-3">ContactUs</h1>
+<div class="row justify-content-center">
+
+<div class="col-md-7">
+    <form class="border border-danger rounded-3 p-2  bg-warning-subtle">
+        <div class="row g-3">
+          <div class="col">First name
+            <input type="text" class="form-control" placeholder="Enter first name" name="fname">
+          </div>
+          <div class="col">Last name
+            <input type="text" class="form-control" placeholder="Enter last name" name="lname">
+          </div>
+          <div class="col-12">Email
+             <input type="email" class="form-control" placeholder="Enter email" name="email">
+          </div>
+          <div class="col-6">Phone Number
+            <input type="number" class="form-control" placeholder="Enter Phone number" name="phnum">
+         </div>
+         <div class="col-6">
+            Contact Purpose
+           <select name="con_cat" id="con_cat" class="form-select">
+             <option selected>Choose...</option>
+             <option value="1">Course Query</option>
+             <option value="2">Addmission Query</option>
+             <option value="3">Fee Refund</option>
+             <option value="4">Other</option>
+           </select>
+        </div>
+        <div class="col-12">Your Message
+            <textarea name="message" class= "form-control" id="msg"  rows="3"></textarea>
+        </div>
+<div class="col-12 text-center">
+    <button type="submit" class="btn btn-primary">Submit</button>
+
+</div>
+        </div>
+      </form>
+
+</div>
+
+</div>
+
+
+
+</div>
+
+
+     <!-- footer -->
+    <%- include('./common/footer.ejs') %>
+    <!-- footer ends -->
+    
+</body>
+</html>

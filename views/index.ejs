@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/bs/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"  />
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>StudyAge</title>
+</head>
+<body >
+    <!-- header -->
+    <%- include('./common/header.ejs') %>
+    <!-- header ends -->
+
+<!-- banner section -->
+<div class="container-fluid banner py-3 mt-5 ">
+
+   <div class="container d-none  d-sm-block"><div class="display-2 text-white text-center text-shad l-space ">Welcome to StudyAge</div>
+    <div class="display-6 text-white text-center text-shad fw-medium  ">Among India's <span class="display-4">Top 5</span> Leading</div>  <p class="display-6 text-white  text-center text-shad fw-medium  ">Education Counsel  &  Learning Platform  </p>
+</div>
+    <div class="container w-50 "><form class="d-flex bg-white rounded-5">
+    <input type="text" type="search" class="p-2 form-control  border-0 rounded-start-pill  " placeholder="Search for Courses,Scholarship..."/>
+     <button type="button" class="btn btn-white rounded-end-pill " ><i class="bi bi-search h4 text-shad border-0"></i></button>
+</form>
+</div>
+
+
+<div class="container fs-5 text-white text-center p-3 text-shad">
+  <pre>
+   •Courses   •Scholarship   •UG/PG Degree   •Abroad University </pre>
+</div>
+</div>
+<!-- banner section ends -->
+
+
+<!-- Sliding banner -->
+
+<div class="container-fluid   p-1 mt-100">
+  <div class="h1 l-space ">Popular Courses</div>
+ 
+
+   
+<div id="demo" class="carousel slide p-1 rounded-5 bg-danger-subtle" data-bs-ride="carousel">
+
+  
+ 
+  
+  
+  <div class="carousel-inner text-center rounded-5">
+    <div class="carousel-item active">
+
+      <div class="row gy-4">
+
+        <div class="col-sm-6"><img src="assets/images/uni_mba_1920.jpg" class="w-100 d-block rounded-5" alt=""></div>
+        <div class="col-sm-6 text-white bg-primary rounded-5 p-5"> <div class="display-5 ">One year online MBA  </div>
+        <div class="display-6 p-5"> California, Stanford university  </div>
+        <button class="btn btn-warning rounded-pill">Enroll Now</button>
+      </div>
+
+      </div>
+    </div>
+    
+  
+
+    <div class="carousel-item">
+      <div class="row gy-4">
+        <div class="col-sm-6"><img src="assets/images/codein_1920.jpg" class="w-100 d-block rounded-5" alt=""></div>
+        <div class="col-sm-6 text-white bg-primary rounded-5 p-3"> <div class="display-5 p-2">Diploma in FullStack Web Developer  </div>
+        <div class="fs-4 ">With 100% Placement Gurantee</div>
+        <div class="display-6 p-5">StudyAge  </div>
+        <button class="btn btn-warning rounded-pill">Enroll Now</button>
+      </div>    
+    </div>
+  </div>
+
+    <div class="carousel-item">
+      <div class="row gy-4">
+        <div class="col-sm-6"><img src="assets/images/cloud_1920.jpg" class="w-100 d-block rounded-5" alt=""></div>
+        <div class="col-sm-6 text-white bg-primary rounded-5 p-3"> <div class="display-5 p-2">Cloud Computing Certification Course  </div>
+        <div class="fs-4 ">With 100% Placement Gurantee</div>
+        <div class="display-6 p-5">StudyAge  </div>
+        <button class="btn btn-warning rounded-pill">Enroll Now</button>
+      </div>    
+
+
+      </div>
+    </div>
+  
+  </div> 
+ 
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev " type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon text-info"></span>
+  </button>
+  <button class="carousel-control-next t" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon "></span>
+  </button>
+</div>
+</div>
+</div>
+
+
+<!-- sliding banner ends -->
+
+
+
+<!-- WHy to join us section -->
+<div class="container-fluid  justify-content-center mt-100">
+  <div class="container lh-lg  rounded-5 bg-info-subtle">
+  <h1 class="fw-medium fs-1 text-center">
+   Why StudyAge?
+  </h1>
+ 
+<div class="container fs-1">
+  <i class="bi bi-1-circle-fill display-2 pink_t" ></i> We are among the Top 5 Learning Platform in India.
+
+</div> 
+<div class="container fs-1">
+  <i class="bi bi-2-circle-fill display-2 pink_t" ></i> Flexible Learning with almost no course fee.
+
+</div> 
+<div class="container fs-1">
+  <i class="bi bi-3-circle-fill display-2 pink_t" ></i> Over 2 million already subscribed .
+
+</div>
+<div class="container fs-1">
+  <i class="bi bi-4-circle-fill display-2 pink_t" ></i> Placements at top companies.
+
+</div>   
+</div>
+</div>
+
+<!-- why to join us secton ends -->
+
+
+
+<!--Our partners -->
+<div class="container-fluid mt-100">
+  <div class="h1 l-space p-1">Our Top Partners</div>
+  <div class="d-flex part ">
+   <div class="me-5"><img src="assets/images/edu_partners/640px-ITS_Engineering_College_Logo.png" alt=""></div>
+   <div class="me-5"><img src="assets/images/edu_partners/bhu_unity.png" alt=""></div>
+   <div class="me-5"><img src="assets/images/edu_partners/IIFP_college.jpg" alt=""></div>
+   <div class="me-5"><img src="assets/images/edu_partners/IIM_Bangalore_Logo.svg" alt=""></div>
+   <div class="me-5"><img src="assets/images/edu_partners/Logo_of_Sikkim_Manipal_University.jpg" alt=""></div>
+   <div class="me-5"><img src="assets/images/edu_partners/stanford-logo.png" alt=""></div>
+
+  </div>
+
+</div>
+<!-- our partner section ends -->
+
+
+    <!-- footer -->
+    <%- include('./common/footer.ejs') %>
+    <!-- footer ends -->
+</body>
+</html>

@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0px solid red;
+}
+
+/* extra utility*/
+.pop .card{
+    transition: tansform 1.9s;
+   
+}
+.pop .card:hover{
+    transform: scale(1);
+     z-index: 1;
+}
+.pink_t{
+    color:rgb(28, 52, 52);
+}
+.mt-100{
+    margin-top: 100px;
+}
+.mt-200{
+    margin-top: 200px;
+}
+.text-shad{
+    text-shadow: 4px 2px 3px black;
+}
+.l-space{
+    letter-spacing: 5px;
+}
+/* extra utlity ends */
+
+
+/* banner and header section */
+.header-bg{
+    background-color: rgba(20, 14, 62, 0.89);
+   border-bottom:1px solid transparent ;
+}
+
+.navbar-nav .nav-item:hover{
+    
+    text-align: center;
+    padding: 0px;
+    
+}
+.navbar-nav .nav-item .nav-link{
+    
+    font-size: 12px;
+    
+}
+.navbar-nav .nav-item .nav-link:hover{
+    
+    font-weight:500 ;
+    
+}
+.dropdown-item{
+    color: white;
+}
+.banner{
+
+/* background-image:linear-gradient(to right,rgba(254, 168, 168, 0.397),rgba(96, 107, 31, 0.677),rgba(111, 72, 33, 0.603)), url(../images/edu_banner.jpg); */
+background-image:linear-gradient(to left, rgba(0, 0, 0, 0.477),rgba(0, 0, 0, 0.631) ),url(../images/person-holding-light-bulb-with-graduation-cap.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+font-family: 'Ubuntu', sans-serif;
+background-attachment: fixed;
+}
+.form-control:focus{
+    
+    box-shadow: 0px 0px 8px 4px black inset;
+}
+
+/* sliding banner */
+
+/*sliding part  */
+.part{
+    overflow-x: scroll;
+    scrollbar-width: none;
+    
+
+}
+.part::-webkit-scrollbar{
+    display: block;
+}
+.part img{
+   
+    width: 200px;
+    height: 150px;
+    
+    
+}
+
+/* degree_ug */
+.card-bg1 .card {
+background-color: black;
+background-image: linear-gradient(to left, rgba(0, 0, 255, 0.776),rgba(34, 4, 4, 0.725),rgba(89, 0, 86, 0.656));
+color: white;
+box-shadow: 4px 4px 4px 2px rgb(0, 0, 0),10px 6px 15px 4px rgb(0, 0, 0);
+
+}
